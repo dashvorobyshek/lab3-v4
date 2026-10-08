@@ -137,8 +137,8 @@ TextAnalyzer.count_vowels("Привет, мир!")
 
 Метод `load_from_json()` читает данные с помощью `json.load()`
 и проверяет, что результат является словарём. Если файл отсутствует,
-возникает `FileNotFoundError`; при повреждённом JSON —
-`JSONDecodeError`; при другом типе корневого значения — `ValueError`.
+возникает `FileNotFoundError`; при повреждённом JSON -
+`JSONDecodeError`; при другом типе корневого значения - `ValueError`.
 
 В демонстрации используется следующий словарь:
 
