@@ -34,6 +34,6 @@ if __name__ == "__main__":
     for sample_text in sample_texts:
         try:
             vowel_count = TextAnalyzer.count_vowels(sample_text)
-            print(f"{sample_text!r}: гласных — {vowel_count}")
+            print(f"{sample_text!r}: гласных - {vowel_count}")
         except TypeError as error:
             print(f"Ошибка типа: {error}")
